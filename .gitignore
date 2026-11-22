@@ -5,3 +5,8 @@ _site/
 
 # Realware API sample responses: may contain owner data, never commit
 api-samples/
+
+# Local secrets: never commit
+.env
+.env.*
+!.env.example
